@@ -1,0 +1,2 @@
+import{_ as a,d as o,o as r,c as n,e as t}from"./app.57e0ae7c.js";const s=o({__name:"BilibiliVideo",props:{bv:null,page:null},setup(i){const e=i,l=`//player.bilibili.com/player.html?bvid=${e.bv}&page=${e.page||1}`;return(d,c)=>(r(),n("div",null,[t("iframe",{class:"bilibili-video",src:l,scrolling:"no",border:"0",frameborder:"no",framespacing:"0",allowfullscreen:"true"},`
+    `)]))}});var _=a(s,[["__scopeId","data-v-7f80b4a6"],["__file","BilibiliVideo.vue"]]);export{_ as default};

@@ -1,0 +1,1 @@
+import{$ as r,r as s,a0 as l}from"./app.57e0ae7c.js";const u=r("releases",()=>{const e=s("v0.5.7"),a=s(!1);return l("https://btdocs.vercel.app/api/releases").then(({data:t})=>{e.value=JSON.parse(t.value).data.tag_name||e.value,a.value=!0}),{tagName:e,isRefreshed:a}});export{u};
